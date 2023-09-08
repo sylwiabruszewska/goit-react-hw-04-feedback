@@ -5,14 +5,14 @@ import {
   StyledSectionContent,
 } from './Section.styled';
 
-export default function Section({ title, children }) {
+export const Section = ({ title, children }) => {
   return (
     <StyledSection>
       <StyledSectionHeading>{title}</StyledSectionHeading>
       <StyledSectionContent>{children}</StyledSectionContent>
     </StyledSection>
   );
-}
+};
 
 Section.propTypes = {
   title: PropTypes.string.isRequired,

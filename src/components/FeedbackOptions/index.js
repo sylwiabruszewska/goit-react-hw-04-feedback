@@ -1,3 +1,1 @@
-import FeedbackOptions from './FeedbackOptions';
-
-export { FeedbackOptions };
+export * from './FeedbackOptions';

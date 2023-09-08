@@ -1,15 +1,6 @@
-import { Button } from './Button';
-import { Container } from './Container';
-import { FeedbackOptions } from './FeedbackOptions';
-import { Notification } from './Notification';
-import { Section } from './Section';
-import { Statistics } from './Statistics';
-
-export {
-  Button,
-  Container,
-  FeedbackOptions,
-  Notification,
-  Section,
-  Statistics,
-};
+export * from './Button';
+export * from './Container';
+export * from './FeedbackOptions';
+export * from './Notification';
+export * from './Section';
+export * from './Statistics';
