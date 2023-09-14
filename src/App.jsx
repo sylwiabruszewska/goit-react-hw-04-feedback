@@ -15,12 +15,12 @@ export const App = () => {
     bad: 0,
   });
 
-  const addNewFeedback = category => {
+  const addNewFeedback = option => {
     const incValue = 1;
 
     setFeedback(prevState => ({
       ...prevState,
-      [category]: prevState[category] + incValue,
+      [option]: prevState[option] + incValue,
     }));
   };
 
