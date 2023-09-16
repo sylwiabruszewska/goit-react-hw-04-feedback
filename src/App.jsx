@@ -18,9 +18,9 @@ export const App = () => {
   const addNewFeedback = option => {
     const incValue = 1;
 
-    setFeedback(prevState => ({
-      ...prevState,
-      [option]: prevState[option] + incValue,
+    setFeedback(feedback => ({
+      ...feedback,
+      [option]: feedback[option] + incValue,
     }));
   };
 
